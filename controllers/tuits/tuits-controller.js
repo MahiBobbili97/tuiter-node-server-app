@@ -12,7 +12,7 @@ const createTuit = (req, res) => {
     newTuit.likes = 0;
     newTuit.liked = true;
     newTuit.dislikes = 0;
-    newTuit.disliked = false;
+    newTuit.disliked = true;
     newTuit.image = "../images/nasa.jpg";
     newTuit.handle = "nasa";
     newTuit.username = "NASA";
