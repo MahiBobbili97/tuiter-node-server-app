@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tuiter-node-server-app.iml" filepath="$PROJECT_DIR$/.idea/tuiter-node-server-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuiter-node-server-app.iml" filepath="$PROJECT_DIR$/tuiter-node-server-app.iml" />
     </modules>
   </component>
 </project>
