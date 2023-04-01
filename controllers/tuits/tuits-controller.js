@@ -1,6 +1,11 @@
 import posts from "./tuits.js";
 let tuits = posts;
-
+export default (app) => {
+    app.post('/api/tuits', createTuit);
+    app.get('/api/tuits', findTuits);
+    app.put('/api/tuits/:tid', updateTuit);
+    app.delete('/api/tuits/:tid', deleteTuit);
+}
 const createTuit = (req, res) => {
     const newTuit = req.body;
     newTuit._id = (new Date()).getTime()+'';
@@ -8,7 +13,7 @@ const createTuit = (req, res) => {
     newTuit.liked = false;
     newTuit.dislikes = 0;
     newTuit.disliked = false;
-    newTuit.image = "../images/nasa.jpg";;
+    newTuit.image = "../images/nasa.jpg";
     newTuit.handle = "nasa";
     newTuit.userName = "NASA";
     newTuit.time = "2h";
@@ -37,9 +42,3 @@ const deleteTuit = (req, res) => {
     res.sendStatus(200);
 }
 
-export default (app) => {
-    app.post('/api/tuits', createTuit);
-    app.get('/api/tuits', findTuits);
-    app.put('/api/tuits/:tid', updateTuit);
-    app.delete('/api/tuits/:tid', deleteTuit);
-}
