@@ -10,7 +10,7 @@ const createTuit = (req, res) => {
     const newTuit = req.body;
     newTuit._id = (new Date()).getTime()+'';
     newTuit.likes = 0;
-    newTuit.liked = false;
+    newTuit.liked = true;
     newTuit.dislikes = 0;
     newTuit.disliked = false;
     newTuit.image = "../images/nasa.jpg";
