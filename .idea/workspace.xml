@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9db9c818-b10b-48f9-a2e6-1184c37596b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/tuits/tuits-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tuits/tuits-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/tuits/tuits.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tuits/tuits.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
