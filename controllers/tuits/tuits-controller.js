@@ -15,7 +15,7 @@ const createTuit = (req, res) => {
     newTuit.disliked = false;
     newTuit.image = "../images/nasa.jpg";
     newTuit.handle = "nasa";
-    newTuit.userName = "NASA";
+    newTuit.username = "NASA";
     newTuit.time = "2h";
     tuits.push(newTuit);
     res.json(newTuit);
